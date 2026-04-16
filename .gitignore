@@ -1,0 +1,47 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.pytest_cache/
+
+# Data Setup
+data/*
+!data/.gitkeep
+
+# Models Setup 
+models/*
+!models/.gitkeep
+saved_objects/*
+!saved_objects/.gitkeep
+*.pkl
+*.h5
+*.joblib
+
+# Logs and Outputs Setup
+logs/*
+!logs/.gitkeep
+results/*
+!results/.gitkeep
+temp_pdf.txt
+
+# LaTeX Auto-generated files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.gz
+*.tex
+*.pdf
+
+# IDE and OS generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
